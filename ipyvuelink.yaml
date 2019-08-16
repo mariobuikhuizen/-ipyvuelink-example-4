@@ -1,0 +1,20 @@
+extension_name: example4
+entry: components.js
+
+# vuetify | bootstrapvue
+variant: vuetify
+
+components:
+  Example1:
+    properties:
+      # name: type. 
+      # - name in snake_case
+      # - type: String | Integer | Float | Boolean | Object | Array | Any
+      exposed: Object
+  Example2:
+    properties:
+      exposed: Object
+  Example3:
+    properties:
+      country_name: String
+      center_coords: Array
