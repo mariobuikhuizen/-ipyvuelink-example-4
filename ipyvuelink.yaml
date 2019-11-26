@@ -2,7 +2,7 @@ extension_name: example4
 entry: components.js
 
 # vuetify | bootstrapvue
-variant: vuetify
+component_library_used: vuetify
 
 components:
   Example1:
